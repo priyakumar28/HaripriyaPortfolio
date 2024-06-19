@@ -39,7 +39,7 @@ function Hero() {
             startDelay={1000}
             cursorColor="rgb(107, 36, 214)"
             multiText={[
-              "Proficient in MERN",
+              "Proficient in MERN stack",
               "Build Pixel Perferct Responsive web applications",
               "Proficient in MERN",
             ]}
