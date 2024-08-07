@@ -18,21 +18,38 @@ function Experience() {
         <div className="exp-svg-wrapper" data-aos="fade-left">
           <img src={experienceSvg} alt="girl working" className="exp-svg" />
         </div>
+        <div>
+        
         <ExpDetailsWrapper className="exp-details-wrapper" data-aos="fade-up">
-          <h4 className="exp-title">Internship</h4>
+          <h4 className="exp-title">Software Developer</h4>
           <p className="exp-company">
-            <span>
+            {/* <span>
               <img src={companyLogo} alt="companyLogo" className="arus-logo" />
-            </span>
-            Arus Info, Bangalore, Karnataka
+            </span> */}
+            TechnicaX Solutions, Chennai, Tamilnadu.
           </p>
-          <p className="exp-role">Frontend Developer</p>
-          <p className="exp-duration">Sept 2023 - Nov 2023</p>
+          <p className="exp-role">Fullstack Developer</p>
+          <p className="exp-duration">Dec 2023 - Present</p>
           <p className="expo-techstack">
-            <span className="exp-techStack-title">Tech Stack:</span> ReactJS,
-            Html, TailwindCSS, Javascript, Redux
+            <span className="exp-techStack-title">Tech Stack:</span> MERN stack
           </p>
         </ExpDetailsWrapper>
+        <ExpDetailsWrapper className="exp-details-wrapper" data-aos="fade-up" >
+          <h4 className="exp-title">Associate Consultant</h4>
+          <p className="exp-company">
+            {/* <span>
+              <img src={companyLogo} alt="companyLogo" className="arus-logo" />
+            </span> */}
+            Bassure Solutions, Chennai, Tamilnadu.
+          </p>
+          <p className="exp-role">Fullstack Developer</p>
+          <p className="exp-duration">Oct 2021 - Sept 2023</p>
+          <p className="expo-techstack">
+            <span className="exp-techStack-title">Tech Stack:</span> NodeJs,ReactJS,
+             Javascript, MongoDB, PostgreSQL, ExpressJs.
+          </p>
+        </ExpDetailsWrapper>
+        </div>
       </div>
     </ExperienceContainer>
   );
@@ -71,6 +88,7 @@ const ExperienceContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    padding-top: 8%;
   }
 
   @media screen and (max-width: 1120px) {
@@ -97,7 +115,7 @@ const ExpDetailsWrapper = styled.div`
   .exp-title {
     color: ${(props) => props.theme.text};
 
-    margin-bottom: 8%;
+    margin-bottom: 3%;
   }
 
   .exp-company {

@@ -37,14 +37,14 @@ function Education() {
                   className="edu-logo"
                 />
               </span>
-              Manonmaniam Sundaranar University
+              Alpha College Of Engineering
             </p>
-            <p className="edu-course">Bsc. in Mathematics</p>
-            <p className="edu-duration">july 2019 - june 2022</p>
-            <p className="edu-cgpa">CGPA : 9.5</p>
+            <p className="edu-course">BE-Electronics and Communication Engineering</p>
+            <p className="edu-duration">Aug 2014 - May 2018</p>
+            <p className="edu-cgpa">CGPA :6.6</p>
           </EduDetailsWrapper>
 
-          <EduDetailsWrapper
+          {/* <EduDetailsWrapper
             className="certification-details-wrapper "
             data-aos="fade-up"
           >
@@ -64,7 +64,7 @@ function Education() {
             >
               <button className="edu-cert-btn">Certificate</button>
             </a>
-          </EduDetailsWrapper>
+          </EduDetailsWrapper> */}
         </div>
       </div>
     </EducationContainer>

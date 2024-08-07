@@ -24,8 +24,8 @@ export const skillsArr = [
  
   {
     imgurl:
-      "https://velog.velcdn.com/images/jongsunpark88/post/32f4053b-daa1-4fbc-b8e5-2a3d0651faf4/style300.png",
-    name: "styled-components",
+      "https://mui.com/static/logo.png",
+    name: "Mui",
   },
  
   {
@@ -75,10 +75,6 @@ export const skillsArr = [
      "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png",
     name: "MongoDB",
   },
-  {
-    imgurl:
-      "https://mui.com/static/logo.png",
-    name: "Mui",
-  },
+  
 
 ];

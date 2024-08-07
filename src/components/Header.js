@@ -4,15 +4,15 @@ import styled from "styled-components";
 function Header() {
   return (
     <HeaderContainer className="container">
-      <h4 data-aos="fade-down">
-        <a href="https://jothika-portfolio.netlify.app">Haripriya MP </a>
-      </h4>
+      <h3 data-aos="fade-down">
+        <a href="https://harripriya-premkumar.netlify.app">Haripriya MP </a>
+      </h3>
     </HeaderContainer>
   );
 }
 
 const HeaderContainer = styled.div`
-  h4 {
+  h3 {
     padding: 3.5rem;
   }
   a {
@@ -20,12 +20,12 @@ const HeaderContainer = styled.div`
   }
 
   @media screen and (max-width: 1300px) {
-    h4 {
+    h3 {
       padding: 2rem;
     }
   }
   @media screen and (max-width: 720px) {
-    h4 {
+    h3 {
       padding: 1.5rem;
     }
   }
